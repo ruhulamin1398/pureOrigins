@@ -19,10 +19,11 @@
     @yield('content')
 
 
-    @include('includes.footer')
 
 
     <script src="{{ asset("abasas/js/core.min.js") }} "></script>
     <script src="{{ asset("abasas/js/script.js") }} "></script>
+    
+    @include('includes.footer')
   </body>
 </html>
