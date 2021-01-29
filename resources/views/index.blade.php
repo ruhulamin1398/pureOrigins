@@ -51,8 +51,7 @@
 
 
 
-                <div class="swiper-slide"
-                    data-slide-bg="{{ asset('abasas/images/slide/LogisticsShip.jpg') }}">
+                <div class="swiper-slide" data-slide-bg="{{ asset('abasas/images/slide/LogisticsShip.jpg') }}">
                     <div class="swiper-slide-caption">
                         <div class="container">
                             <div class="row">
@@ -112,6 +111,32 @@
 
 
 
+{{-- 
+<div class="jumbotron jumbotron-fluid mt-0 mb-0">
+    <div class="container">
+        <h2 class="display-4">Fluid jumbotron</h2>
+        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div>
+
+<div class="jumbotron mt-0 mb-0" style="
+background-image: url({{ asset('abasas/images/covid-banner.jpg') }});
+">
+    <h2 class="display-4 " style="text-align: center">COVID 19 IMPACT</h2>
+    <p style="color: black; text-align: center"> “Our industry has come to a halt and with closures in the retail
+        sectors manufacturing has been hit due to order cancellations and plant closures.” <br> “We have sprung back
+        into operation with fresh innovations and vigour as we steam ahead with our manufacturing without the lag!”</p>
+</div>
+
+
+<div class="jumbotron jumbotron-fluid mt-0 mb-0">
+    <div class="container">
+        <h2 class="display-4" style="text-align: end">Fluid jumbotron</h2>
+        <p class="lead" style="text-align: end">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    </div>
+</div> --}}
+
+<img src="{{ asset("abasas/images/banner (1).png") }}" width="100%" style="padding: 0; margin:0;" alt="covid19">
 
 <!-- About-->
 <section class="section section-md bg-transparent">
@@ -137,8 +162,8 @@
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
 
-                <h6 class="card-title font-weight-bold"> Product Design & Development  </h6>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.  </p>
+                <h6 class="card-title font-weight-bold"> Product Design & Development </h6>
+                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="200">
 
@@ -150,7 +175,7 @@
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
 
-                <h6 class="card-title font-weight-bold">Pattern Development  </h6>
+                <h6 class="card-title font-weight-bold">Pattern Development </h6>
                 <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
 
@@ -174,7 +199,7 @@
                 <nav class="navbar ">
                     <a class="navbar-brand text-light"><img
                             src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-build.svg"
-                            alt="ic-new-process-design"></a>
+                            alt="ic-new-process-design" height="300px"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
 
@@ -190,7 +215,7 @@
                 <nav class="navbar ">
                     <a class="navbar-brand text-light"><img
                             src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-deliver.svg"
-                            alt="ic-new-process-deliver"></a>
+                            alt="ic-new-process-deliver" height="30px"></a>
 
                 </nav>
 
@@ -211,7 +236,97 @@
 
 
 
+<img src="{{ asset("abasas/images/banner (2).png") }}" width="100%"  alt="covid19">
 
+
+
+<section id="more-services" class="more-services">
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-6 d-flex align-items-stretch">
+
+                <div class="card aos-init aos-animate" style="background-image: url(https://abasas.tech/img/more-services-1.jpg);" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Woven</a></h5>
+                        <p class="card-text"> 
+                            
+<b>Lines:</b> 26 lines  <br>
+<b>Capacity:</b> 30,000 pieces per day  <br>
+<b>Samples:</b> 2,000 per month (80 daily) <br>
+<b>Marker & Sample:</b> CAD system <br>
+<b>Cutting, Sewing & Finishing:</b> 520k monthly  <br>
+<b>Print & Embroidery:</b> In house printing facility <br>
+Brother, Juki, Pegasus, Auto Spreader with (Gerber Technology Vibemac <br>
+
+
+                        </p>
+                        <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+                <div class="card aos-init aos-animate" style="background-image: url(https://abasas.tech/img/more-services-2.jpg);" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Knit</a></h5>
+                        <p class="card-text">
+                            
+<b>Lines:</b> 30 lines <br>
+<b>Capacity:</b> 34,600 per day <br>
+<b>Samples:</b> 2,050 per month  <br>
+<b>Dyeing & Finishing:</b> 30 Sets of machines <br>
+<b>Dyeing & Finishing:</b> 20 metric tonnes per day  <br>
+<b>Knitting:</b> 23 sets of machines
+                        </p>
+                        <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card aos-init" style="background-image: url(https://abasas.tech/img/more-services-3.jpg);" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-body">
+                        {{-- <h5>h5 class="card-title"><a href="">A cloud based document management platform</a></h5> --}}
+                        <p class="card-text">
+                            Outerwear 
+Underwear <br>
+Tops, T’s, Polos, Vests etc <br>
+Denims <br>
+Lounge wear <br>
+Sweater, Fleece <br>
+Active wear  <br>
+
+                        </p>
+                        <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 d-flex align-items-stretch mt-4">
+                <div class="card aos-init" style="background-image: url(https://abasas.tech/img/more-services-4.jpg);" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="">Home Textiles</a></h5>
+                        <p class="card-text">
+                            
+                    <b> Spinning: </b>
+                    150,000 spindles, 45 tonnes of yarn daily capacity    <br>
+                    <b>Weaving:</b>
+                    With Rapier, Air jet & Shuttle procedure looms capable of 100% Cotton, 100% Polyester / Blended fabrics  <br>
+                        <b>Confectioning: </b>
+                    Equipped with our own stitching and packing unit with processing capacity of 1,500,000 meters (1.5 million meters) fabric per month
+
+                        </p>
+                        <div class="read-more"><a href="#"><i class="icofont-arrow-right"></i> Read More</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+
+<img src="{{ asset("abasas/images/banner (3).png") }}" width="100%"  alt="covid19">
 
 <!-- About-->
 <section class="section section-md bg-transparent">
@@ -232,12 +347,6 @@
         </div>
     </div>
 </section>
-
-
-
-
-
-
 
 
 
