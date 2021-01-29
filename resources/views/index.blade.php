@@ -81,6 +81,126 @@
         </div>
       </section>
 
+
+
+
+
+
+
+
+
+      <section >
+        <div class="container ">
+            <div class="row justify-content-center ">
+              
+              <h2 >Let you sparkle</h2>
+              <p class="text-center lead pb-4">We are offering youon Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, iure!  Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, molestiae. to all of our competitors.</p>
+
+
+                <div class="col-12 col-sm-6 col-md-2 offset-md-1 aos-init" data-aos="fade-up" data-aos-delay="100">
+                    <nav class="navbar ">
+                        <a class="navbar-brand text-light"><img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-discover.svg" alt="ic-new-process-design"></a>
+                        <div class="d-none d-md-block">----------------</div>
+                    </nav>
+
+                    <h4 class="card-title font-weight-bold">Discover </h4>
+                    <p>We shape brands through exploration, applying in-depth research to challenge assumptions at every
+                        turn. </p>
+                </div>
+                <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="200">
+
+
+                    <nav class="navbar ">
+                        <a class="navbar-brand text-light"><img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-design.svg" alt="ic-new-process-design"></a>
+                        <div class="d-none d-md-block">----------------</div>
+                    </nav>
+
+                    <h4 class="card-title font-weight-bold">Design </h4>
+                    <p>Our design approach is to simplify. We embrace the joy in creating something unique that is easy for end-users.</p>
+                </div>
+
+
+                
+                <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
+                  <nav class="navbar ">
+                      <a class="navbar-brand text-light"><img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-build.svg" alt="ic-new-process-design"></a>
+                      <div class="d-none d-md-block">----------------</div>
+                  </nav>
+
+                  <h4 class="card-title font-weight-bold">Build</h4>
+                  <p>Using modern technologies, we build with efficiency and skill, creating flexible and scalable
+                      business-driven solutions. </p>
+              </div>
+
+
+                
+              <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
+                <nav class="navbar ">
+                    <a class="navbar-brand text-light"><img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-build.svg" alt="ic-new-process-design"></a>
+                    <div class="d-none d-md-block">----------------</div>
+                </nav>
+
+
+                <h4 class="card-title font-weight-bold">Build</h4>
+                <p>Using modern technologies, we build with efficiency and skill, creating flexible and scalable
+                    business-driven solutions. </p>
+            </div>
+
+
+                <div class="col-12 col-sm-6 col-md-2 aos-init " data-aos="fade-up" data-aos-delay="400">
+
+
+                    <nav class="navbar ">
+                        <a class="navbar-brand text-light"><img src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-deliver.svg" alt="ic-new-process-deliver"></a>
+
+                    </nav>
+
+                    <h4 class="card-title font-weight-bold">Deliver </h4>
+                    <p>We take an iterative approach to both our work and our practice, always looking for ways to
+                        improve what we do. </p>
+                </div>
+
+
+
+
+
+
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+      <!-- About-->
+      <section class="section section-md bg-transparent">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8 col-sm-10 text-center">
+              <h2 class="h3">Let you sparkle</h2>
+              <p class="lead">We are offering you the unique goods because our product is the real treasure. If you are a true fan, you’ll love it. We have a tremendous variety in comparison to all of our competitors.</p>
+              
+              <a class="btn btn-primary" href="about-us.html" data-caption-animate="fadeInUp" data-caption-delay="450">About Us</a>
+
+
+              
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      
+
+
+
+
       <!-- About-->
       <section class="section section-md bg-transparent">
         <div class="container">
@@ -92,6 +212,8 @@
           </div>
         </div>
       </section>
+
+      
 
       <!-- Category-->
       <section class="section section-md bg-transparent position-relative">
