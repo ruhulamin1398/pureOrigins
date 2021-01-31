@@ -43,8 +43,8 @@
                                         data-caption-delay="250">
                                         Come and join the Fashion Together Event hosted by Hyve in London <br>
                                         Our designers have crafted some great pieces for the upcoming season 21/22
-                                    </p><a class="btn btn-primary" href="" data-caption-animate="fadeInUp"
-                                        data-caption-delay="450">shop now</a>
+                                    </p><a class="btn btn-primary" href="#" data-caption-animate="fadeInUp"
+                                        data-caption-delay="450">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -136,7 +136,7 @@
             <div class="col-12 col-sm-6 col-md-2 offset-md-1 aos-init" data-aos="fade-up" data-aos-delay="100">
                 <nav class="navbar ">
                     <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-discover.svg"
+                            src="{{asset('abasas/images/icon/ic-new-1 (3).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
@@ -149,7 +149,7 @@
 
                 <nav class="navbar ">
                     <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-design.svg"
+                            src="{{asset('abasas/images/icon/ic-new-1 (1).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
@@ -163,7 +163,7 @@
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <nav class="navbar ">
                     <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-build.svg"
+                            src="{{asset('abasas/images/icon/ic-new-1 (4).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
@@ -177,7 +177,7 @@
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <nav class="navbar ">
                     <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-build.svg"
+                            src="{{asset('abasas/images/icon/ic-new-1 (5).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design" height="300px"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
@@ -193,8 +193,8 @@
 
                 <nav class="navbar ">
                     <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-deliver.svg"
-                            alt="ic-new-process-deliver" height="30px"></a>
+                            src="{{asset('abasas/images/icon/ic-new-1 (2).png')}}" width="50px" height="50px"
+                           alt="ic-new-process-deliver" height="30px"></a>
 
                 </nav>
 
