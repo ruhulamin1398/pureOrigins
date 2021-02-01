@@ -65,6 +65,12 @@
 /** @group Base */
 /** @section Reset Styles*/
 
+
+
+
+.centerElement{
+	margin: 0 auto;
+}
 /*----------------------------------------------------------------------------------
 12. footer section css start
 ----------------------------------------------------------------------------------*/
@@ -5583,11 +5589,11 @@ textarea.form-input {
 	padding: 60px 0 40px;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
 	.footer-1-top {
 		padding: 100px 0 70px;
 	}
-}
+} */
 
 .footer-1-top .container-wide {
 	max-width: 100%;
