@@ -135,7 +135,7 @@
 
             <div class="col-12 col-sm-6 col-md-2 offset-md-1 aos-init" data-aos="fade-up" data-aos-delay="100">
                 <nav class="navbar  ">
-                    <a class="navbar-brand text-light centerElement"><img
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
                             src="{{asset('abasas/images/icon/ic-new-1 (3).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
@@ -148,7 +148,7 @@
 
 
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light centerElement"><img
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
                             src="{{asset('abasas/images/icon/ic-new-1 (1).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
@@ -162,7 +162,7 @@
 
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light centerElement"><img
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
                             src="{{asset('abasas/images/icon/ic-new-1 (4).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
@@ -176,7 +176,7 @@
 
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light centerElement"><img
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
                             src="{{asset('abasas/images/icon/ic-new-1 (5).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design" height="300px"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
@@ -192,7 +192,7 @@
 
 
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light centerElement"><img
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
                             src="{{asset('abasas/images/icon/ic-new-1 (2).png')}}" width="50px" height="50px"
                            alt="ic-new-process-deliver" height="30px"></a>
 
