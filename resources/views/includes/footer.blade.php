@@ -13,13 +13,14 @@
                     </div>
                     <div class="row mt-1">
                         <div class="col-12 col-md-8">
+                            <ul class="footer-list pl-4 " style="text-align: left !important" >
+                     
                             <li style="text-align: justify"> Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                 Dignissimos atque voluptatum illum eaque nobis sed provident quasi quae totam? Quo
                                 reprehenderit quas vero distinctio ipsum animi maiores beatae maxime id. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse, dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa eos similique corporis? </li>
 
-                                <ul class="footer-list pl-4 font-weight-bold" style="text-align: left !important" >
-                            <li>VAT: 300138663</li>
-                            <li>Company registration: 10489945</li>
+                            <li class="font-weight-bold " >VAT: 300138663</li>
+                            <li class="font-weight-bold " >Company registration: 10489945</li>
                                 </ul>
                         </div>
                         <div class="col-12 col-md-4">
