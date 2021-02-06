@@ -80,16 +80,16 @@
                             </li> --}}
 
                             
-                            <li class="list-inline-item"><a href="#" class="text-dark"> Privacy Policy</a> </li>
+                            {{-- <li class="list-inline-item"><a href="#" class="text-dark"> Privacy Policy</a> </li>
                             <li class="list-inline-item"><a href="#" class="text-dark"> Terms & Conditions</a> </li>
-                            <li class="list-inline-item"><a href="#" class="text-dark"> Site Map</a> </li>
+                            <li class="list-inline-item"><a href="#" class="text-dark"> Site Map</a> </li> --}}
 
 
-                            {{-- <li class="list-inline-item">
+                            <li class="list-inline-item">
                                 <p class="rights"><span>&copy;&nbsp;</span><span
-                                        class="copyright-year"></span><span>&nbsp;</span><span>PureOrigins</span>
+                                        class="copyright-year"></span>2021<span>&nbsp;</span><span>PureOrigins</span>
                                 </p>
-                            </li> --}}
+                            </li>
                         </ul>
                     </div>
                     <div class="col-lg-6 text-lg-right">

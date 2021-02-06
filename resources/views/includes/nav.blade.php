@@ -24,7 +24,7 @@
                 </div> --}}
               </div>
               <div class="rd-navbar-aside-col rd-navbar-brand">
-                <!--Brand--><a class="brand" href="index.html"><img class="brand-logo-dark" src="{{ asset("abasas/images/logo/logo.jpg") }}" alt="" width="149" height="49"></a>
+                <!--Brand--><a class="brand" href="{{ route('index') }}"><img class="brand-logo-dark" src="{{ asset("abasas/images/logo/logo.jpg") }}" alt="" width="149" height="49"></a>
               </div>
               <div class="rd-navbar-aside-col">
                 <div class="rd-navbar-aside-button-group">
@@ -65,13 +65,13 @@
           <div class="rd-navbar-main">
             <div class="rd-navbar-nav-wrap">
               <ul class="rd-navbar-nav">
-                <li class="rd-nav-item active"><a class="rd-nav-link" href="#">Home</a>
+                <li class="rd-nav-item active"><a class="rd-nav-link" href="{{ route('index') }}">Home</a>
                 </li>
                
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">The Craft</a>
                 </li>
          
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">The Group</a>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('the-group') }}">The Group</a>
                 </li>
          
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Gallery</a>
