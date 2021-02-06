@@ -24,17 +24,14 @@
                                 </ul>
                         </div>
                         <div class="col-12 col-md-4">
-                            <ul class="footer-list pl-4" style="text-align: left !important" >
+                            <ul class="footer-list pl-4 ml-4" style="text-align: left !important" >
 
-                                <li> 13 Amsterdam Road</li>
-                                <li>Isle of Dogs</li>
-                                <li class="font-weight-bold">London E14 3UU</li>
-
-
-
-                                <li class="pt-4">44 Alaol Avenue </li>
-                                <li>Uttara, Sector 6</li>
-                                <li class="font-weight-bold">Dhaka, Bangladesh </li>
+                                <li> About Us</li>
+                                <li>Blog</li>
+                                <li>Terms & Conditions</li>
+                                <li >Privacy Policy </li>
+                                <li >Site Map </li>
+                                
 
                             </ul>
                         </div>
@@ -100,10 +97,6 @@
                             <li class="list-inline-item"><a class="icon icon-gray icon-md fa-facebook-f" href="#"></a>
                             </li>
                             <li class="list-inline-item"><a class="icon icon-gray icon-md fa-instagram" href="#"></a>
-                            </li>
-                            <li class="list-inline-item"><a class="icon icon-gray icon-md fa-twitter" href="#"></a>
-                            </li>
-                            <li class="list-inline-item"><a class="icon icon-gray icon-md fa-pinterest" href="#"></a>
                             </li>
                             <li class="list-inline-item"><a class="icon icon-gray icon-md fa-youtube-play" href="#"></a>
                             </li>
