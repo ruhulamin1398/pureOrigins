@@ -77,7 +77,7 @@
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Gallery</a>
                 </li>
          
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">Contact Us</a>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('contact') }}">Contact Us</a>
                 </li>
               </ul>
             </div>

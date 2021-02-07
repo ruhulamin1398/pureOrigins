@@ -1,6 +1,8 @@
 <?php
 
+
 use App\Http\Controllers\AboutController;
+use App\Http\Controllers\ContactController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,6 +20,7 @@ Route::get('/', function () {
     return view('index');
 })->name('index');
 Route::get('/group',  [AboutController::class, 'index'])->name('the-group');
+Route::get('/contact',  [ContactController::class, 'index'])->name('contact');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');

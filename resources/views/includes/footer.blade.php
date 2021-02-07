@@ -4,13 +4,9 @@
         <div class="container-wide">
             <div class="row row-30">
                 <div class="col-sm-12 col-lg-8 ">
-                    <div class=" text-left font-weight-bold ">
-                        PURE ORIGINS
-                        {{-- <img class="brand-logo-dark"
-                            src="{{ asset("abasas/images/logo/logo2.png") }}" alt="logo"
-                            width="149" height="49"> --}}
-
-                    </div>
+                    <div class=" text-left font-weight-bold  pl-4" style="font-family: 'Merriweather', 'Times New Roman', Times, serif"> PURE ORIGINS
+                         
+                         </div>
                     <div class="row mt-1">
                         <div class="col-12 col-md-8">
                             <ul class="footer-list pl-4 " style="text-align: left !important" >
