@@ -3,15 +3,6 @@
 
 
 
-{{-- <section class="breadcrumbs-custom" data-preset='{"title":"Breadcrumbs","category":"header","reload":false,"id":"breadcrumbs"}'>
-    <div class="container">
-      <ul class="breadcrumbs-custom-path">
-        <li><a href="index.html">Home</a></li>
-        <li><a>Pages</a></li>
-        <li class="active">About Us</li>
-      </ul>
-    </div>
-  </section> --}}
 
   <section class="section-sm bg-default">
     <div class="container-wide">
@@ -94,9 +85,7 @@
 
 
   <section class="section section-md bg-transparent position-relative">
-    <svg class="bg-decor bg-decor-2" width="703" height="716" viewBox="0 0 703 716" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <path d="M576.149 245.486C630.363 339.387 629.64 506.443 515.386 572.408C401.132 638.372 166.248 538.762 100.444 424.785C34.6395 310.809 177.394 142.877 315.908 68.698C430.162 2.73351 510.345 131.509 576.149 245.486Z" fill="#FB9AB1"></path>
-    </svg>
+    
     <div class="container-wide">
       <div class="row row-40">
         <div class="col-lg-7"><img src="{{ asset('abasas/images/home-07-1095x700.jpg') }}" alt="" width="1095" height="700">
