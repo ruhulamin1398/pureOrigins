@@ -68,16 +68,16 @@
                 <li class="rd-nav-item active"><a class="rd-nav-link" href="{{ route('index') }}">Home</a>
                 </li>
                
-                <li class="rd-nav-item"><a class="rd-nav-link" href="#">The Craft</a>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('crafts.index') }}">The Craft</a>
                 </li>
          
-                <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('the-group') }}">The Group</a>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('groups.index') }}">The Group</a>
                 </li>
          
                 <li class="rd-nav-item"><a class="rd-nav-link" href="#">Gallery</a>
                 </li>
          
-                <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('contact') }}">Contact Us</a>
+                <li class="rd-nav-item"><a class="rd-nav-link" href="{{ route('contacts.index') }}">Contact Us</a>
                 </li>
               </ul>
             </div>
