@@ -3,8 +3,6 @@
 
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
-use App\Http\Controllers\CraftController;
-use App\Http\Controllers\GroupController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -18,24 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('index');
-})->name('index');
 
+    return view('admin.includes.app');
 
-Route::resources([
-    'groups' => GroupController::class,
-    'contacts' => ContactController::class,
-    'crafts' => CraftController::class,
-]);
-
-
-
-
-
-
-// Route::middleware(['auth'])->get('/admin', function () {
-//     return view('admin.includes.app');
-
-
-// })->name('admin');
+})->name('admin');
