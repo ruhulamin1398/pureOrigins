@@ -43,8 +43,8 @@
                                         data-caption-delay="250">
                                         Come and join the Fashion Together Event hosted by Hyve in London <br>
                                         Our designers have crafted some great pieces for the upcoming season 21/22
-                                    </p><a class="btn btn-primary" href="" data-caption-animate="fadeInUp"
-                                        data-caption-delay="450">shop now</a>
+                                    </p><a class="btn btn-primary" href="#" data-caption-animate="fadeInUp"
+                                        data-caption-delay="450">Read More</a>
                                 </div>
                             </div>
                         </div>
@@ -134,57 +134,57 @@
         <div class="row">
 
             <div class="col-12 col-sm-6 col-md-2 offset-md-1 aos-init" data-aos="fade-up" data-aos-delay="100">
-                <nav class="navbar ">
-                    <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-discover.svg"
+                <nav class="navbar  ">
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
+                            src="{{asset('abasas/images/icon/ic-new-1 (3).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
 
-                <h6 class="card-title font-weight-bold"> Product Design & Development </h6>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <h6 class="card-title font-weight-bold text-center"> Product Design & Development </h6>
+                <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="200">
 
 
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-design.svg"
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
+                            src="{{asset('abasas/images/icon/ic-new-1 (1).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
 
-                <h6 class="card-title font-weight-bold">Pattern Development </h6>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <h6 class="card-title font-weight-bold text-center">Pattern Development </h6>
+                <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
 
 
 
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-build.svg"
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
+                            src="{{asset('abasas/images/icon/ic-new-1 (4).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
 
-                <h6 class="card-title font-weight-bold">Sampling</h6>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+                <h6 class="card-title font-weight-bold text-center">Sampling</h6>
+                <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
             </div>
 
 
 
             <div class="col-12 col-sm-6 col-md-2 aos-init" data-aos="fade-up" data-aos-delay="300">
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-build.svg"
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
+                            src="{{asset('abasas/images/icon/ic-new-1 (5).png')}}" width="50px" height="50px"
                             alt="ic-new-process-design" height="300px"></a>
                     {{-- <div class="d-none d-md-block">----------------</div> --}}
                 </nav>
 
 
-                <h6 class="card-title font-weight-bold">Manufacturing</h6>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.. </p>
+                <h6 class="card-title font-weight-bold text-center">Manufacturing</h6>
+                <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.. </p>
             </div>
 
 
@@ -192,14 +192,14 @@
 
 
                 <nav class="navbar ">
-                    <a class="navbar-brand text-light"><img
-                            src="https://d1i2cp4a5c819e.cloudfront.net/wp-content/uploads/2020/02/ic-new-process-deliver.svg"
-                            alt="ic-new-process-deliver" height="30px"></a>
+                    <a class="navbar-brand text-light  " style="margin: 0 auto;" ><img
+                            src="{{asset('abasas/images/icon/ic-new-1 (2).png')}}" width="50px" height="50px"
+                           alt="ic-new-process-deliver" height="30px"></a>
 
                 </nav>
 
-                <h6 class="card-title font-weight-bold">Shipping </h6>
-                <p> Lorem ipsum dolor, sit amet consectetur adipisicing elit.. </p>
+                <h6 class="card-title font-weight-bold text-center">Shipping </h6>
+                <p class="text-center"> Lorem ipsum dolor, sit amet consectetur adipisicing elit.. </p>
             </div>
 
 
@@ -332,7 +332,7 @@
     <div class="container ">
         <div class="row">
 
-            <img src="{{ asset('abasas/images/map.jpg') }}" alt="map" width="100%"
+            <img src="{{ asset('abasas/images/locations.jpg') }}" alt="map" width="100%"
                 style="min-width: 100%;">
 
 
