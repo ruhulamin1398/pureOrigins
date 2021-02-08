@@ -1,8 +1,7 @@
 <?php
 
 
-use App\Http\Controllers\AboutController;
-use App\Http\Controllers\ContactController;
+use App\Http\Controllers\BannerController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 | contains the "web" middleware group. Now create something great!
 |
 */
+
+ 
+Route::resource('banners',BannerController::class);
 
 
 
