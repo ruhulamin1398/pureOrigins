@@ -6,21 +6,19 @@
         <div class="swiper-container swiper-slider swiper-classic-slider" data-swiper='{"autoplay":{"delay":5000}}'>
             <div class="swiper-wrapper">
 
-
+            @foreach ($banners as $banner)
+                
+            
                 <div class="swiper-slide swiper-classic-slide-3 context-dark"
-                    data-slide-bg="{{ asset('abasas/images/slide/SewingMachine.jpg') }}">
+                    data-slide-bg="{{ asset($banner->image->url) }}">
                     <div class="swiper-slide-caption">
                         <div class="container">
                             <div class="row text-center justify-content-center justify-content-lg-start">
                                 <div class="col-lg-7 offset-lg-5 col-md-8 col-sm-10">
-                                    <h2 class="h1" data-caption-animate="fadeInUp" data-caption-delay="100">COVID 19
-                                        IMPACT</h2>
+                                    <h2 class="h1" data-caption-animate="fadeInUp" data-caption-delay="100">{{ $banner->title }}</h2>
                                     <p class="lead box-570 block-center" data-caption-animate="fadeInUp"
                                         data-caption-delay="250">
-                                        “Our industry has come to a halt and with closures in the retail sectors
-                                        manufacturing has been hit due to order cancellations and plant closures.” <br>
-                                        “We have sprung back into operation with fresh innovations and vigour as we
-                                        steam ahead with our manufacturing without the lag
+                                        {{ $banner->description }}
                                     </p><a class="btn btn-primary" href="#" data-caption-animate="fadeInUp"
                                         data-caption-delay="450">Read More</a>
                                 </div>
@@ -28,8 +26,11 @@
                         </div>
                     </div>
                 </div>
+                @endforeach
 
 
+
+ {{--
 
                 <div class="swiper-slide swiper-classic-slide-3 context-dark"
                     data-slide-bg="{{ asset('abasas/images/slide/ThreadsBundle.jpg') }}">
@@ -55,7 +56,7 @@
 
 
 
-                {{-- <div class="swiper-slide"
+                <div class="swiper-slide"
                     data-slide-bg="{{ asset('abasas/images/slide/LogisticsShip.jpg') }}">
                     <div class="swiper-slide-caption">
                         <div class="container">
@@ -74,7 +75,7 @@
                         </div>
                     </div>
                 </div>
-                 --}}
+                 
                 <div class="swiper-slide swiper-classic-slide-3 context-dark"
                     data-slide-bg="{{ asset('abasas/images/slide/LogisticsTrucks.jpg') }}">
                     <div class="swiper-slide-caption">
@@ -91,6 +92,7 @@
                         </div>
                     </div>
                 </div>
+                --}}
             </div>
             <!--Swiper Pagination-->
             <div class="swiper-pagination"></div>
