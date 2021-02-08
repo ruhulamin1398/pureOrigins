@@ -16,19 +16,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('index');
-})->name('index');
-Route::get('/group',  [AboutController::class, 'index'])->name('the-group');
-Route::get('/contact',  [ContactController::class, 'index'])->name('contact');
 
+    return view('admin.includes.app');
 
-
-
-
-
-// Route::middleware(['auth'])->get('/admin', function () {
-//     return view('admin.includes.app');
-
-
-// })->name('admin');
+})->name('admin');
