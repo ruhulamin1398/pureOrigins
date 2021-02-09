@@ -2,6 +2,7 @@
 
 
 use App\Http\Controllers\BannerController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -17,6 +18,7 @@ use Illuminate\Support\Facades\Route;
 
  
 Route::resource('banners',BannerController::class);
+Route::resource('services',ServiceController::class);
 
 
 

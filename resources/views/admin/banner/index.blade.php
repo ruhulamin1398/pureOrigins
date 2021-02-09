@@ -42,18 +42,18 @@
                 <div class="form-row align-items-center" id="createFormFieldList">
                   
                 
-                    <div class="form-group col-md-6 col-sm-12 p-4  ">
+                    <div class="form-group col-md-4 col-sm-12 p-4  ">
                         <label for="caption"> Title<span style="color: red"> *</span></label>
                         <input type="text" name="title" class="form-control" id="title"   required>
                     </div>
 
                                     
-                    <div class="form-group col-md-6 col-sm-12 p-4  ">
+                    <div class="form-group col-md-4 col-sm-12 p-4  ">
                         <label for="caption"> Description<span style="color: red"> *</span></label>
                         <input type="text" name="description" class="form-control" id="description"   required>
                     </div>
 
-                    <div class="form-group col-md-6 col-sm-12 p-4  ">
+                    <div class="form-group col-md-4 col-sm-12 p-4  ">
                         <label for="image">Upload image <span style="color: red"> * &nbsp;</span></label><i class="fa fa-info-circle"  title="Image Resulation: 1980 X 1080" aria-hidden="true"></i><br>
                         <input type="file" name="image" id="image" accept=" .jpg, .jpeg" required >
                     </div>
@@ -68,10 +68,6 @@
         </div>
     </div>
 </div>
-
-
-
-
 
 
     <div class="card mb-4 shadow">
