@@ -6,6 +6,8 @@ use App\Http\Controllers\GalleryCategoryController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ImageController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\SettingController;
+use App\Models\setting;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,16 +21,18 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
- 
+
+Route::get('/', function () {
+
+    return view('admin.includes.app');
+
+})->name('admin');
+
+
 Route::resource('banners',BannerController::class);
 Route::resource('services',ServiceController::class);
 Route::resource('gallery',GalleryController::class);
 Route::resource('gallery-categories',GalleryCategoryController::class);
 Route::resource('images',ImageController::class);
+Route::resource('setting',SettingController::class);
 
-
-Route::get('/admin', function () {
-
-    return view('admin.includes.app');
-
-})->name('admin');

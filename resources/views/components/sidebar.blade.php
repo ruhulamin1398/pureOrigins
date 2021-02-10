@@ -99,7 +99,7 @@
        <hr class="sidebar-divider m-1 p-0 ">
        <!-- Nav Item - Dashboard -->
        <li class="nav-item  ">
-           <a class="nav-link p-3 " href="">
+           <a class="nav-link p-3 " href="{{ route('setting.index') }}">
                <i class="fas fa-fw fa-cog"></i>
                <span>Setting </span></a>
        </li>

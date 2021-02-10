@@ -27,7 +27,10 @@
   </head>
   <body>
 
-    @include('includes.nav')
+    <x-frontendNav>
+      
+    </x-frontendNav>
+    {{-- @include('includes.nav') --}}
 
     @yield('content')
 
