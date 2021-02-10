@@ -2,6 +2,8 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\gallery;
+use App\Models\galleryCategory;
 use App\Models\image;
 use Illuminate\Http\Request;
 
@@ -78,8 +80,20 @@ class ImageController extends Controller
      * @param  \App\Models\image  $image
      * @return \Illuminate\Http\Response
      */
-    public function destroy(image $image)
+    public function destroy(image $image,$id)
     {
-        //
+        $image = image::find($id);
+        unlink($image->url);
+        unlink($image->thumbnail);
+
+        $gallery = gallery::where('image_id',$id)->first();
+        if(!is_null($gallery)){
+            $gallery->image->delete();
+            $gallery->delete();
+        return redirect()->back()->withErrors('Picture Removed');
+        }
+        return redirect()->back()->withErrors('Picture Removed');
+
+        
     }
 }

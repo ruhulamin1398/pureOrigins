@@ -30,10 +30,6 @@
                             <input type="text" name="description" class="form-control" id="description"   required>
                         </div>
 
-
-                        
-                       
-    
                     </div>
 
                     <div class="form-group col-md-6 col-sm-12 p-4  ">

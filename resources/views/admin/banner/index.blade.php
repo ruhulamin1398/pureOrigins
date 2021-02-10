@@ -6,25 +6,6 @@
 
 
 
-
-
-@if (session()->has('success'))
-<div class="alert alert-success">
-    @if(is_array(session('success')))
-    <ul>
-        @foreach (session('success') as $message)
-        <li>{{  __('translate.'.$message) }}</li>
-        @endforeach
-    </ul>
-    @else
-    {{ session('success') }}
-    @endif
-</div>
-@endif
-
-
-
-
 <div class="container-fluid m-0 p-0">
     
 <!-- Begin Page Content -->

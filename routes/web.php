@@ -4,6 +4,7 @@
 use App\Http\Controllers\AboutController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\CraftController;
+use App\Http\Controllers\GalleryCategoryController;
 use App\Http\Controllers\GroupController;
 use App\Http\Controllers\IndexController;
 use Illuminate\Support\Facades\Route;
@@ -36,9 +37,8 @@ Route::resources([
 
 
 
+// Route::middleware(['auth'])->get('/dashboard', function () {
+//     return "asfdas";
 
-// Route::middleware(['auth'])->get('/admin', function () {
-//     return view('admin.includes.app');
 
-
-// })->name('admin');
+// })->name('dashboard');
