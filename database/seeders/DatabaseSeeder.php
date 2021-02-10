@@ -50,9 +50,14 @@ class DatabaseSeeder extends Seeder
                 'url' => 'images/1612800599.full.ThreadsBundle.jpg',        //id = 4
                 'thumbnail' => 'images/1612800599.small.ThreadsBundle.jpg',
             ],
+            
+            [
+                'url' => 'images/logo.jpg',        //id = 5
+                'thumbnail' => 'images/logo.jpg',
+            ],
 
         ]);
-
+        
 
         DB::table('banners')->insert([
        
@@ -108,6 +113,16 @@ class DatabaseSeeder extends Seeder
                 'name' => 'category 4',
                 'description' => 'description 4'
             ],
+        ]);
+        DB::table('settings')->insert([
+
+            [
+                'name' => 'Pure Origins',
+                'slogan' => 'Safins Group',
+                'phone' => '01555555555',
+                'email' => 'contact@pureorins.tech',
+                'image_id' => 5,
+            ]
         ]);
     }
 }

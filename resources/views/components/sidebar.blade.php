@@ -26,7 +26,8 @@
     <li class="nav-item">
         <a class="nav-link collapsed  p-3 " href="#" data-toggle="collapse" data-target="#collapseSell"
             aria-expanded="true" aria-controls="collapseSell">
-            <i class="fas fa-fw fa-cog"></i>
+            <i class="fas fa-newspaper"></i>
+
             <span>Blog</span>
         </a>
         <div id="collapseSell" class="collapse" aria-labelledby="headingSell" data-parent="#accordionSidebar">
@@ -48,7 +49,7 @@
 
     <li class="nav-item">
         <a class="nav-link collapsed  p-3 " href="{{ route('services.index') }}">
-            <i class="fas fa-fw fa-cog"></i>
+            <i class="fas fa-users-cog"></i>
             <span>Services</span>
         </a>
       
@@ -60,7 +61,7 @@
     <li class="nav-item">
         <a class="nav-link collapsed  p-3 " href="#" data-toggle="collapse" data-target="#collapsegallery"
             aria-expanded="true" aria-controls="collapseSell">
-            <i class="fas fa-fw fa-cog"></i>
+            <i class="fas fa-images"></i>
             <span>Gallery</span>
         </a>
         <div id="collapsegallery" class="collapse" aria-labelledby="headingSell" data-parent="#accordionSidebar">
@@ -79,7 +80,7 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item  ">
         <a class="nav-link p-3 " href="{{ route('banners.index') }}">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <i class="far fa-image"></i>
             <span>Banner</span></a>
     </li>
 
@@ -89,9 +90,19 @@
     <!-- Nav Item - Dashboard -->
     <li class="nav-item  ">
         <a class="nav-link p-3 " href="">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>User </span></a>
+            <i class="fas fa-users"></i>
+            <span>Users </span></a>
     </li>
+
+
+       <!-- Divider -->
+       <hr class="sidebar-divider m-1 p-0 ">
+       <!-- Nav Item - Dashboard -->
+       <li class="nav-item  ">
+           <a class="nav-link p-3 " href="{{ route('setting.index') }}">
+               <i class="fas fa-fw fa-cog"></i>
+               <span>Setting </span></a>
+       </li>
     <!-- Divider -->
     <hr class="sidebar-divider m-1 p-0 ">
     <!-- Nav Item - Dashboard -->
