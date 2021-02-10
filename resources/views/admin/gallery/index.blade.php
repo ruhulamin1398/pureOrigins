@@ -127,9 +127,14 @@
 
 
                             @foreach ($categories as $category)
+                             
                                 @php
                                     $galleries = $category->gallery
-                                @endphp
+                                @endphp 
+                                    
+                                    @if (count($galleries) > 0)
+                                        
+                                    
                             <tr class="data-row " >
                                 <td class="iteration">{{$itr++}}</td>
                                 <td class="word-break name" style="vertical-align:middle">{{ $category->name }}</td>
@@ -160,7 +165,6 @@
                                         </div>
                                       </div>
                                     </div>
-                            
                                     @endforeach
                                 </div>
                                 </td>
@@ -187,7 +191,7 @@
     
                              </tr>
 
-
+                            @endif
                             @endforeach
                         
     
