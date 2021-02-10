@@ -47,31 +47,33 @@
 
 
     <li class="nav-item">
-        <a class="nav-link collapsed  p-3 " href="#" data-toggle="collapse" data-target="#collapsePurchase"
-            aria-expanded="true" aria-controls="collapsePurchase">
+        <a class="nav-link collapsed  p-3 " href="{{ route('services.index') }}">
             <i class="fas fa-fw fa-cog"></i>
-            <span>Committee</span>
+            <span>Services</span>
         </a>
-        <div id="collapsePurchase" class="collapse" aria-labelledby="headingPurchase" data-parent="#accordionSidebar">
+      
+    </li>
+
+    <hr class="sidebar-divider m-1 p-0 ">
+
+
+    <li class="nav-item">
+        <a class="nav-link collapsed  p-3 " href="#" data-toggle="collapse" data-target="#collapsegallery"
+            aria-expanded="true" aria-controls="collapseSell">
+            <i class="fas fa-fw fa-cog"></i>
+            <span>Gallery</span>
+        </a>
+        <div id="collapsegallery" class="collapse" aria-labelledby="headingSell" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
 
-                <a class="collapse-item" href="">Committee </a>
-                <a class="collapse-item" href="">Add Committee </a>
-                <a class="collapse-item" href="">Designation </a>
-                <a class="collapse-item" href="">Session </a>
+            <a class="collapse-item" href="{{ route('gallery.index') }}">Gallery List </a> 
+            <a class="collapse-item" href="{{ route('gallery-categories.index') }}">Gallery Category </a> 
 
             </div>
         </div>
     </li>
 
 
-    <hr class="sidebar-divider m-1 p-0 ">
-    <!-- Nav Item - Dashboard -->
-    <li class="nav-item  ">
-        <a class="nav-link p-3 " href="">
-            <i class="fas fa-fw fa-tachometer-alt"></i>
-            <span>Gallery</span></a>
-    </li>
 
     <hr class="sidebar-divider m-1 p-0 ">
     <!-- Nav Item - Dashboard -->

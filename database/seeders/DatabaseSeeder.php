@@ -82,5 +82,32 @@ class DatabaseSeeder extends Seeder
                 'image_id' => 2,
             ],
         ]);
+
+        DB::table('gallery_categories')->insert([
+            [
+                'name' => 'category 1',
+                'description' => 'description 1'
+            ],
+            [
+                'name' => 'category 2',
+                'description' => 'description 1'
+            ],
+            [
+                'name' => 'category 2',
+                'description' => 'description 1'
+            ],
+            [
+                'name' => 'category 3',
+                'description' => 'description 1'
+            ],
+            [
+                'name' => 'category 3',
+                'description' => 'description 1'
+            ],
+            [
+                'name' => 'category 4',
+                'description' => 'description 4'
+            ],
+        ]);
     }
 }

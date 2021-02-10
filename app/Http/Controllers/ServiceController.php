@@ -2,12 +2,10 @@
 
 namespace App\Http\Controllers;
 
-use App\Models\gallery;
-use App\Models\galleryCategory;
-use App\Models\image;
+use App\Models\service;
 use Illuminate\Http\Request;
 
-class ImageController extends Controller
+class ServiceController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,8 +13,9 @@ class ImageController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        //
+    {  
+
+        return view('admin.service.index');
     }
 
     /**
@@ -37,16 +36,18 @@ class ImageController extends Controller
      */
     public function store(Request $request)
     {
-        //
+       $service = new service;
+       
+
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Models\image  $image
+     * @param  \App\Models\service  $service
      * @return \Illuminate\Http\Response
      */
-    public function show(image $image)
+    public function show(service $service)
     {
         //
     }
@@ -54,10 +55,10 @@ class ImageController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Models\image  $image
+     * @param  \App\Models\service  $service
      * @return \Illuminate\Http\Response
      */
-    public function edit(image $image)
+    public function edit(service $service)
     {
         //
     }
@@ -66,10 +67,10 @@ class ImageController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Models\image  $image
+     * @param  \App\Models\service  $service
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, image $image)
+    public function update(Request $request, service $service)
     {
         //
     }
@@ -77,23 +78,11 @@ class ImageController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Models\image  $image
+     * @param  \App\Models\service  $service
      * @return \Illuminate\Http\Response
      */
-    public function destroy(image $image,$id)
+    public function destroy(service $service)
     {
-        $image = image::find($id);
-        unlink($image->url);
-        unlink($image->thumbnail);
-
-        $gallery = gallery::where('image_id',$id)->first();
-        if(!is_null($gallery)){
-            $gallery->image->delete();
-            $gallery->delete();
-        return redirect()->back()->withErrors('Picture Removed');
-        }
-        return redirect()->back()->withErrors('Picture Removed');
-
-        
+        //
     }
 }
