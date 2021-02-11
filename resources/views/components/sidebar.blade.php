@@ -48,10 +48,19 @@
 
 
     <li class="nav-item">
-        <a class="nav-link collapsed  p-3 " href="{{ route('services.index') }}">
+        <a class="nav-link collapsed  p-3" data-toggle="collapse" data-target="#collapseservice" href="#"  aria-expanded="true" aria-controls="collapseservice">
             <i class="fas fa-users-cog"></i>
             <span>Services</span>
         </a>
+
+        <div id="collapseservice" class="collapse" aria-labelledby="headingSell" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+
+            <a class="collapse-item" href="{{ route('services.index') }}">Services </a> 
+            <a class="collapse-item" href="{{ route('service-category.index') }}">Gallery Category </a> 
+
+            </div>
+        </div>
       
     </li>
 

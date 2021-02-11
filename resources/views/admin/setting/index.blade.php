@@ -7,6 +7,30 @@
 <div class="container-fluid">
 
 
+    @if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+            <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+    @endif
+
+    @if (session()->has('success'))
+    <div class="alert alert-success">
+        @if(is_array(session('success')))
+        <ul>
+            @foreach (session('success') as $message)
+            <li>{{  $message }}</li>
+            @endforeach
+        </ul>
+        @else
+        {{ session('success') }}
+        @endif
+    </div>
+    @endif
+
 
     <!-- DataTales Example -->
     <div class="card shadow mb-4 ml-0 mr-0">
