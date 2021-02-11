@@ -5,8 +5,10 @@ use App\Http\Controllers\BannerController;
 use App\Http\Controllers\GalleryCategoryController;
 use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ImageController;
+use App\Http\Controllers\ServiceCategoryController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\SettingController;
+use App\Models\serviceCategory;
 use App\Models\setting;
 use Illuminate\Support\Facades\Route;
 
@@ -35,4 +37,5 @@ Route::resource('gallery',GalleryController::class);
 Route::resource('gallery-categories',GalleryCategoryController::class);
 Route::resource('images',ImageController::class);
 Route::resource('setting',SettingController::class);
+Route::resource('service-category',ServiceCategoryController::class);
 
